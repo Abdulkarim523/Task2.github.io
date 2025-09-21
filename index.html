@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Azure hotels</title>
+</head>
+<body>
+    <h1>logo</h1>
+    <h3>AZURE HOTELS AND SIUTES</h3>
+    <a href="">HOME</a>
+    <a href="">SERVICES</a>
+    <a href="">ABOUT</a>
+    <a href="">HELP</a>
+    <a href="">CONTACT</a>
+    <a href="form.html">BOOKING</a>
+    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia est sapiente fugiat quisquam minima dolores reprehenderit, dolorum, voluptatem quos quas similique? Velit corporis illum deserunt fugiat beatae tenetur nulla minus!</P>
+    <img src="img 1.jpg" alt="">
+    <img src="img 2.jpg" alt="">
+    <img src="img 3.jpg" alt="">
+    <img src="img 4.jpg" alt="">
+    <img src="img 5.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti minus cupiditate. Obcaecati inventore consequatur ad dolorum laborum quo temporibus iusto delectus ex tempore beatae earum quisquam illum magnam quod sit deserunt, ratione distinctio voluptatibus aut officia. Debitis ab provident, consequuntur expedita consequatur repellat eos adipisci quaerat quas nesciunt deserunt dignissimos sed? Amet voluptatum quas incidunt illo, alias eius sed, quisquam vitae nobis harum distinctio maxime corporis provident fuga commodi. Blanditiis a exercitationem impedit! Hic, quos. Ab placeat libero quia officia praesentium. Beatae fugiat, ipsam unde autem tempore, id incidunt magnam saepe doloremque impedit velit vero officiis ea aliquid assumenda nihil mollitia sequi molestiae exercitationem itaque quidem delectus? Repellat quis accusantium, iusto, qui soluta quo, nostrum aperiam porro sequi minima cupiditate suscipit deserunt veritatis magni necessitatibus aliquam? Beatae dolorum in doloribus natus unde! Nesciunt, perspiciatis! Unde ea laborum provident pariatur, asperiores cumque voluptatem alias ratione nesciunt earum nihil omnis rerum nostrum exercitationem, cupiditate velit culpa beatae! Ipsam excepturi voluptatem aperiam, iste incidunt, sunt perspiciatis est reprehenderit nihil similique pariatur, ducimus esse quo minima nobis magnam illum dolor porro quibusdam magni! Libero ullam quam dignissimos quibusdam quo laborum quaerat repellendus maxime autem dolor, est fuga vero inventore earum repellat, nesciunt sit?</p>
+    <img src="img 6.jpg" alt="">
+    <img src="img 7.jpg" alt="">
+    <img src="img 8.jpg" alt="">
+    <img src="img 9.jpg" alt="">
+    <img src="img 10.jpg" alt="">
+
+    <div class="form-container">
+        <h2>Book Your Stay</h2>
+        <form action="booking_form">
+            <div class="form-group">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required>
+            </div><br>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,}" title="Please enter a valid phone number" required>
+            </div><br>
+             <div class="form-group">
+                <label for="check_in_date">Check-in Date:</label>
+                <input type="date" id="check_in_date" name="check_in_date" required>
+            </div><br>
+            <div class="form-group">
+                <label for="check_out_date">Check-out Date:</label>
+                <input type="date" id="check_out_date" name="check_out_date" required>
+            </div><br>
+            <div class="form-group">
+                <label for="adults">Number of Adults:</label>
+                <input type="number" id="adults" name="adults" min="1" required>
+            </div><br>
+            <div class="form-group">
+                <label for="children">Number of Children:</label>
+                <input type="number" id="children" name="children" min="0">
+            </div><br>
+            <div class="form-group">
+                <label for="room_type">Room Type:</label>
+                <select id="room_type" name="room_type" required>
+                    <option value="">--Select a Room Type--</option>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div><br>
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="confirmation" class="confirmation-message">
+            Your booking has been submitted successfully! We will contact you shortly to confirm your reservation.
+        </div>
+    </div>
+</body>
+</html>
